@@ -55,9 +55,11 @@ const Pricing = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-20 px-7">
       <div className="md:flex justify-around items-center md:mb-14 mb-10 text-center">
-        <SectionTitle>Simple, transparent pricing</SectionTitle>
+        <SectionTitle tailClass={'md:mb-0 mb-5'}>
+          Simple, transparent pricing
+        </SectionTitle>
 
-        <div className="border-2 border-blue-950 inline-block rounded-lg h-full ">
+        <div className="border-2 border-blue-950 inline-block rounded-lg h-full p-1 flex">
           <Toogle
             tailClass={`${period === 'Week' && 'bg-blue-950 text-white'}`}
             onClick={() => setPeriod('Week')}
