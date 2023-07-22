@@ -1,14 +1,11 @@
-import about from './assets/about-us.jpeg';
+import Companies from './component/Companies';
+import Faq from './component/Faq';
 import SectionTitle from './component/SectionTitle';
 
 const AboutUs = () => {
   return (
     <div className="bg-slate-100">
       <div className="max-w-screen-xl mx-auto py-20 px-7 grid md:grid-cols-2 gap-10 items-center ">
-        <img
-          src={`${about}`}
-          className=" rounded-3xl justify-self-end shadow-lg"
-        ></img>
         <div>
           <h2 className="font-medium bg-blue-950 text-slate-50 px-2 px-1 rounded-lg inline-block mb-1">
             About Us
@@ -27,6 +24,8 @@ const AboutUs = () => {
             resources designed to turn your aspirations of wealth into reality.
           </p>
         </div>
+        <Faq />
+        <Companies />
       </div>
     </div>
   );
