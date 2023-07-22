@@ -1,11 +1,6 @@
 import { useState } from 'react';
 import Button from './Button';
-
-const links = [
-  { name: 'About Us', link: '#' },
-  { name: 'Testimonials', link: '#' },
-  { name: 'Contact US', link: '#' },
-];
+import Links from './Links';
 
 const NavBar = () => {
   const [open, setIsOpen] = useState(false);
@@ -26,18 +21,7 @@ const NavBar = () => {
           open ? 'top-[80px]' : 'top-[-490px]'
         }`}
       >
-        {links.map((item) => {
-          return (
-            <li key={item.name}>
-              <a
-                href={item.link}
-                className="hover:text-orange-500 transition-all duration-300"
-              >
-                {item.name}
-              </a>
-            </li>
-          );
-        })}
+        <Links />
         <Button>Our Plans</Button>
       </ul>
     </div>

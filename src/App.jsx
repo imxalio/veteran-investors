@@ -1,10 +1,12 @@
 import AboutUs from './AboutUs';
 import './App.css';
+import ContactUs from './ContactUs';
 import Features from './Features';
 import Header from './Header';
 import Pricing from './Pricing';
 import Service from './Service';
 import Testimonial from './Testimonial';
+import Footer from './Footer';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Pricing />
       <AboutUs />
       <Testimonial />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };
