@@ -28,7 +28,7 @@ const features = [
     description:
       'Receive personalized chart analysis for your preferred stocks, helping you understand market trends and make informed decisions.',
     icon: <RiBarChartBoxFill />,
-    animation: 'fade-left',
+    animation: 'fade-up',
   },
   {
     title: 'Exclusive Alerts',
@@ -49,7 +49,7 @@ const features = [
     description:
       'Access a comprehensive trading guide and resources, equipping you with the knowledge and strategies to excel in trading.',
     icon: <PiStudentFill />,
-    animation: 'fade-left',
+    animation: 'fade-up',
   },
 ];
 

@@ -87,7 +87,7 @@ const Pricing = () => {
           }
         />
         <PriceCard
-          animation={'fade-left'}
+          animation={'fade-up'}
           data={vip}
           type={'VIP'}
           price={period === 'Week' ? '50AUD/Week' : '200AUD/Month'}

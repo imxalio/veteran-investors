@@ -8,7 +8,7 @@ const content = [
     description:
       'Our independent investment advice will give you the confidence to make suitable financial decisions.',
     image: data,
-    animation: 'fade-down-right',
+    animation: 'fade-right',
   },
   {
     title: 'Strategy Planning',
@@ -22,7 +22,7 @@ const content = [
     description:
       'We provide world-class services that help give you the confidence you need to make the first steps to a better future.',
     image: strategy,
-    animation: 'fade-up-left',
+    animation: 'fade-up',
   },
 ];
 
