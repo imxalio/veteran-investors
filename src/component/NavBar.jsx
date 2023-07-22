@@ -22,7 +22,7 @@ const NavBar = () => {
         }`}
       >
         <Links />
-        <Button>Our Plans</Button>
+        <Button link={'#pricing'}>Our Plans</Button>
       </ul>
     </div>
   );

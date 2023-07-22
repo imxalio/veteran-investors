@@ -1,4 +1,4 @@
-import { AiFillRightCircle } from 'react-icons/ai';
+import JoinDiscord from './JoinDiscord';
 
 const Connect = () => {
   return (
@@ -12,15 +12,7 @@ const Connect = () => {
         Join Our Vibrant Community, share ideas, and grow together by becoming
         part of our lively Discord community.
       </p>
-      <a
-        href="#"
-        className="text-xl font-semibold text-orange-500 flex items-center gap-3 hover:text-white transition-all duration-300"
-      >
-        <h1>Join our discord</h1>
-        <span>
-          <AiFillRightCircle />
-        </span>
-      </a>
+      <JoinDiscord />
     </div>
   );
 };

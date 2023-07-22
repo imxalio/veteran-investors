@@ -37,7 +37,11 @@ const Faq = () => {
     <div className="">
       <ul className="w-full  ">
         {accordionData.map((item) => (
-          <li key={item.id} className="mb-4 shadow-lg rounded-lg">
+          <li
+            key={item.id}
+            className="mb-4 shadow-lg rounded-lg"
+            data-aos={`fade-up`}
+          >
             <Accordion
               title={item.title}
               description={item.description}

@@ -4,7 +4,7 @@ import SectionTitle from './component/SectionTitle';
 
 const AboutUs = () => {
   return (
-    <div className="bg-slate-100">
+    <div id="about" className="bg-slate-100">
       <div className="max-w-screen-xl mx-auto py-20 px-7 grid md:grid-cols-2 gap-10 items-center ">
         <div>
           <h2 className="font-medium bg-blue-950 text-slate-50 px-2 px-1 rounded-lg inline-block mb-1">

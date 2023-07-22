@@ -51,9 +51,8 @@ const vip = [
 const Pricing = () => {
   const [period, setPeriod] = useState('Month');
 
-  console.log('hello ' + period);
   return (
-    <div className="max-w-screen-xl mx-auto py-20 px-7">
+    <div id="pricing" className="max-w-screen-xl mx-auto py-20 px-7">
       <div className="md:flex justify-around items-center md:mb-14 mb-10 text-center">
         <SectionTitle tailClass={'md:mb-0 mb-5'}>
           Simple, transparent pricing
@@ -75,8 +74,9 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-9">
+      <div className="grid md:grid-cols-2 gap-9 justify-center">
         <PriceCard
+          animation={'fade-right'}
           data={premium}
           type={'Premium'}
           price={period === 'Week' ? '25AUD/Week' : '100AUD/Month'}
@@ -87,6 +87,7 @@ const Pricing = () => {
           }
         />
         <PriceCard
+          animation={'fade-left'}
           data={vip}
           type={'VIP'}
           price={period === 'Week' ? '50AUD/Week' : '200AUD/Month'}

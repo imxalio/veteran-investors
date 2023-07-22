@@ -9,7 +9,7 @@ const companies = [hkex, jpx, nasdaq, nyse, sgx, twse];
 
 const Companies = () => {
   return (
-    <div className="md:col-span-2 md:grid grid-cols-6 justify-items-center items-center text-center md:mx-0 mx-auto grayscale">
+    <div className="md:col-span-2 grid md:grid-cols-6 grid-cols-2 gap-5  justify-items-center items-center text-center md:mx-0 mx-auto grayscale">
       {companies.map((img) => {
         return <img key={img} src={img}></img>;
       })}

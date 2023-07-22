@@ -1,7 +1,8 @@
 const links = [
-  { name: 'About Us', link: '#' },
-  { name: 'Testimonials', link: '#' },
-  { name: 'Contact US', link: '#' },
+  { name: 'Features', link: '#features' },
+  { name: 'About Us', link: '#about' },
+  { name: 'Testimonials', link: '#testimonials' },
+  { name: 'Contact Us', link: '#contact' },
 ];
 
 const Links = () => {

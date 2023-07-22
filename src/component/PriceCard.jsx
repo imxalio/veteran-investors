@@ -1,11 +1,12 @@
 import Button from './Button';
 
-const PriceCard = ({ data, type, price, link, highlight }) => {
+const PriceCard = ({ data, type, price, link, highlight, animation }) => {
   return (
     <div
       className={`justify-self-center p-10 shadow-xl rounded-2xl ${
         highlight && 'bg-blue-950 text-white'
       } `}
+      data-aos={`${animation}`}
     >
       <h2 className="font-medium text-2xl mb-4">{type}</h2>
       <h1 className="text-orange-500 text-4xl font-bold mb-6">{price}</h1>

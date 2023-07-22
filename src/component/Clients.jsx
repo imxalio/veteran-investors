@@ -31,7 +31,10 @@ const clientTestimonials = [
 const Clients = () => {
   return (
     <div>
-      <article className="max-w-screen-xl px-7 py-20 mx-auto">
+      <article
+        className="max-w-screen-xl px-7 py-20 mx-auto"
+        data-aos={`fade-up`}
+      >
         <div className="grid md:grid-cols-4 gap-10 items-center  md:p-20 p-3 relative ">
           <div className="w-[84%] h-[110%] bg-blue-950 absolute z-0 rounded-2xl md:opacity-100 opacity-0"></div>
 
@@ -41,7 +44,7 @@ const Clients = () => {
             return (
               <div
                 key={client.name}
-                className="rounded-xl bg-white w-full place-self-stretch z-10"
+                className="rounded-xl bg-white w-full place-self-stretch z-10 shadow-xl"
               >
                 <img
                   className="border-b-[1.3rem] border-gray-200 rounded-t-xl"

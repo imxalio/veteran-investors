@@ -2,9 +2,9 @@ import Form from './component/Form';
 
 const ContactUs = () => {
   return (
-    <section className=" bg-slate-100">
+    <section id="contact" className=" bg-slate-100">
       <div className="max-w-screen-xl mx-auto p-20 px-7 grid md:grid-cols-2 items-center">
-        <div className="p-8">
+        <div className="p-8" data-aos={`fade-right`}>
           <h1 className="text-2xl font-semibold mb-7">
             One Call Away From Financial Freedom
           </h1>
@@ -21,7 +21,10 @@ const ContactUs = () => {
             today and submit your inquiry to our team.
           </p>
         </div>
-        <div className="bg-blue-950 p-7 rounded-xl shadow-xl text-white">
+        <div
+          className="bg-blue-950 p-7 rounded-xl shadow-2xl text-white"
+          data-aos={`fade-up`}
+        >
           <Form />
         </div>
       </div>
