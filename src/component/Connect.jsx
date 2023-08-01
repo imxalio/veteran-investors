@@ -12,7 +12,7 @@ const Connect = () => {
         Join Our Vibrant Community, share ideas, and grow together by becoming
         part of our lively Discord community.
       </p>
-      <JoinDiscord />
+      <JoinDiscord hover={'hover:text-white'} />
     </div>
   );
 };

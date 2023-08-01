@@ -26,7 +26,7 @@ const accordionData = [
     id: '4',
     title: 'Financial freedom?',
     description:
-      'If you are looking for a way to make your finance or wealth grow and work more efficiently for you, the world of investments can appear daunting, with a bewildering range of options to choose from. Our team at Union Wealth Management, are here to help you every step of the way and give our impartial and independent advice, to ensure the optimum returns for your future.',
+      'If you are looking for a way to make your finance or wealth grow and work more efficiently for you, the world of investments can appear daunting, with a bewildering range of options to choose from. Our team at Veteran Investors, are here to help you every step of the way and give our impartial and independent advice, to ensure the optimum returns for your future.',
   },
 ];
 

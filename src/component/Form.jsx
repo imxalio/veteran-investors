@@ -2,7 +2,7 @@ import Button from './Button';
 
 const Form = () => {
   return (
-    <form>
+    <form action="https://formspree.io/f/xknlojak" method="POST" a>
       <div className="grid grid-cols-1 gap-7 mb-7">
         <input
           name="Full name"
@@ -36,6 +36,7 @@ const Form = () => {
         moreClass={
           'hover:text-orange-500 hover:ring-4 hover:ring-orange-500 -rotate-12 hover:rotate-0 ring-inset font-semibold text-2xl '
         }
+        type={'submit'}
       >
         Submit
       </Button>

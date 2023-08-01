@@ -13,8 +13,8 @@ const ContactUs = () => {
             Give our team a call or just e-mail us & we will contact you to help
             you with whatever your financial goals are. If you have any
             questions or queries, or if your interested in becoming a client
-            with us at Union Wealth Management, we have the team and the
-            knowledge to ensure that you reach your financial potential.
+            with us at Veteran Investors, we have the team and the knowledge to
+            ensure that you reach your financial potential.
           </p>
           <p className="text-lg leading-8 mb-4">
             Make your money work smarter for you. Complete the contact form

@@ -55,7 +55,7 @@ const Hero = () => {
         Join our exclusive community and become a profitable stock trader today!
       </p>
       <div className="md:text-2xl text-lg  font-bold cursor-pointer flex text-center md:flex-row flex-col items-center md:gap-16 gap-5 justify-center">
-        <JoinDiscord position={'center'} />
+        <JoinDiscord position={'center'} hover={'hover:text-blue-950'} />
 
         <Button link={'#pricing'}>Get Pass</Button>
       </div>

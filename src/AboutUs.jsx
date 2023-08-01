@@ -12,7 +12,7 @@ const AboutUs = () => {
           </h2>
 
           <SectionTitle>
-            We are <span className="text-orange-500">Veteran Investor</span>
+            We are <span className="text-orange-500">Veteran Investors</span>
           </SectionTitle>
 
           <p className="text-xl">

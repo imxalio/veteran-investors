@@ -1,9 +1,9 @@
 import { AiFillRightCircle } from 'react-icons/ai';
 
-const JoinDiscord = ({ position }) => {
+const JoinDiscord = ({ position, hover }) => {
   return (
     <a
-      className={`text-xl font-semibold text-orange-500 flex justify-${position} items-center gap-3 hover:text-blue-950 transition-all duration-300`}
+      className={`text-xl font-semibold text-orange-500 flex justify-${position} items-center gap-3 ${hover} transition-all duration-300 `}
       href="https://discord.gg/nWc27wEW"
       target={`_blank`}
     >

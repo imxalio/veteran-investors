@@ -1,15 +1,35 @@
 import Button from './Button';
 
-const PriceCard = ({ data, type, price, link, highlight, animation }) => {
+const PriceCard = ({
+  data,
+  type,
+  price,
+  link,
+  highlight,
+  animation,
+  discount,
+  period,
+  currency,
+}) => {
   return (
     <div
-      className={`justify-self-center p-10 shadow-xl rounded-2xl ${
+      className={`justify-self-center p-10 shadow-xl rounded-2xl relative overflow-hidden ${
         highlight && 'bg-blue-950 text-white'
       } `}
       data-aos={`${animation}`}
     >
+      {period === 'Month' && (
+        <h1 className="text-4xl font-bold absolute -top-0 -right-20 px-20 py-5 bg-orange-500 rotate-45">
+          {discount}
+        </h1>
+      )}
+
       <h2 className="font-medium text-2xl mb-4">{type}</h2>
-      <h1 className="text-orange-500 text-4xl font-bold mb-6">{price}</h1>
+      <div className="flex items-end gap-3 mb-6">
+        <h1 className="text-orange-500 text-4xl font-bold mb-">{price}</h1>
+        <h2 className="text-orange-500 text-xl font-bold mb-">{currency}</h2>
+      </div>
+
       <ul className="mb-5 p-2">
         {data.map((feature) => {
           return (
